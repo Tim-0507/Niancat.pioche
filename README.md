@@ -7,5 +7,9 @@ L'animal apparaitra dans une interface grphique créée à l'aide de Pyqt. Pour 
 
 L'ensemble apparait sur une grille composée d'un nombre défini de cases. 
 La grille est séparée en 2 parties:
+
+
   -La première partie correspond à un rectangle dans lequel se trouve le chat. Toutes les 0.1 secondes, un 'clean_grid' est   effectué et le 2ème état du NyanCat apparait, et ainsi de suite. NyanCat possède 4 état répétés en boucle, donnant une impression de mouvement continu.
+  
+  
   -la seconde partie correspond au reste de la grille. C'est dans cette partie que s'applique le jeu de la vie en continu. Aucun 'clean_grid' n'est effectué.
