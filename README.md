@@ -3,7 +3,7 @@ auteur : Timothee Robin ; Julien Menet
 
 
 Notre projet NyanCat a pour objectif de reproduire le célèbre GIF visionné plus de 300 000 000 de fois sur youtube.
-L'animal apparaitra dans une interface grphique créée à l'aide de Pyqt. Pour ajouter une touche plus personnelle à notre NyanCat, nous avons décidé d'utiliser le jeu de la vie pour reproduire les étoiles présentes en arrière plan. Ces dernières permettent de donner une impression de mouvement.
+L'animal apparaitra dans une interface graphique créée à l'aide de Pyqt. Pour ajouter une touche plus personnelle à notre NyanCat, nous avons décidé d'utiliser le jeu de la vie pour reproduire les étoiles présentes en arrière plan. Ces dernières permettent de donner une impression de mouvement.
 
 L'ensemble apparait sur une grille composée d'un nombre défini de cases. 
 La grille est séparée en 2 parties:
