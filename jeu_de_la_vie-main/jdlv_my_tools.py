@@ -51,7 +51,7 @@ def clean_grid0(grid,w,x,y,z):
                     grid.cases [i][j]['c'] = death_color
             else:
                 pass
-                
+
             i=i+1
         else:
             pass
@@ -390,7 +390,7 @@ def color_pates (grid, i, j, color):
         pass
     return grid
 
-def make_lanceur_glisseur_coulisseur_compresseur_aspirateur_aligatueur (grid):
+def make_lanceur_glisseur_coulisseur (grid):
     i= random.randint(10, 65)
     if 18<i<26 or 39<i<47:
         pass
@@ -695,7 +695,7 @@ def part1 (grid, compteur):
         and make_queue1(grid, 29, 19, 'red') and make_rainbow(grid, 0, 0, 'red')\
         and make_rainbow(grid, 1, 6, 'red') and make_rainbow(grid, 0, 12, 'red')\
         and make_colortete(grid, 28, 38, 'red') and color_pates(grid, 38, 24, 'red')\
-        and color_queue3(grid, 29, 19, 'red') 
+        and color_queue3(grid, 29, 19, 'red')
     return next_grid
 
 def part2 (grid, compteur):
@@ -726,7 +726,7 @@ def part4 (grid, compteur):
     return next_grid
 
 def part5(grid,compteur):
-    next_grid =make_lanceur_glisseur_coulisseur_compresseur_aspirateur_aligatueur (grid)
+    next_grid =make_lanceur_glisseur_coulisseur(grid)
     return next_grid
 
 def apply_rules (grid, compteur):
